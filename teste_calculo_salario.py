@@ -12,9 +12,9 @@ def teste1_desenvolvedor():
                  "DESENVOLVEDOR"]
         salario = salario_funcionario.calcular_salario(lista)
         assert salario == 2400.0
-        print("Teste deu Certo")
+        print("Deu certo!")
     except AssertionError:
-        print("Teste deu errado")
+        print("Deu errado!")
 
 
 def teste2_desenvolvedor():
@@ -24,9 +24,9 @@ def teste2_desenvolvedor():
                  "DESENVOLVEDOR"]
         salario = salario_funcionario.calcular_salario(lista)
         assert salario == 2699.1
-        print("Teste deu Certo")
+        print("Deu certo!")
     except AssertionError:
-        print("Teste deu Errado")
+        print("Deu errado!")
 
 
 def teste1_analista():
@@ -36,9 +36,9 @@ def teste1_analista():
                  "ANALISTA"]
         salario = salario_funcionario.calcular_salario(lista)
         assert salario == 1500.0
-        print("Teste deu Certo")
+        print("Deu certo!")
     except AssertionError:
-        print("Teste deu Errado")
+        print("Deu errado!")
 
 
 def teste2_analista():
@@ -48,9 +48,9 @@ def teste2_analista():
                  "ANALISTA"]
         salario = salario_funcionario.calcular_salario(lista)
         assert salario == 1699.1499999999999
-        print("Teste deu Certo")
+        print("Deu certo!")
     except AssertionError:
-        print("Teste deu Errado")
+        print("Deu errado!")
 
 
 def teste1_gerente():
@@ -60,9 +60,9 @@ def teste1_gerente():
                  "GERENTE"]
         salario = salario_funcionario.calcular_salario(lista)
         assert salario == 3500.0
-        print("Teste deu Certo")
+        print("Deu certo!")
     except AssertionError:
-        print("Teste deu Errado")
+        print("Deu errado!")
 
 
 def teste2_gerente():
@@ -72,9 +72,9 @@ def teste2_gerente():
                  "GERENTE"]
         salario = salario_funcionario.calcular_salario(lista)
         assert salario == 3999.2000000000003
-        print("Teste deu Certo")
+        print("Deu certo!")
     except AssertionError:
-        print("Teste deu Errado")
+        print("Deu errado!")
 
 
 def teste_outro_cargo():
@@ -84,9 +84,9 @@ def teste_outro_cargo():
                  "Cozinheiro"]
         salario = salario_funcionario.calcular_salario(lista)
         assert salario > 0
-        print("Teste deu Certo")
+        print("Deu certo!")
     except TypeError:
-        print("Teste deu Errado")
+        print("Deu errado!")
 
 
 teste1_desenvolvedor()
