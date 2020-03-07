@@ -74,7 +74,7 @@ def teste2_gerente():
         assert salario == 3999.2000000000003
         print("Deu certo!")
     except AssertionError:
-        print("Deu errado!")
+        print("Deu errado!)
 
 
 def teste_outro_cargo():
