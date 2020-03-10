@@ -11,7 +11,7 @@ def teste1_desenvolvedor():
         lista = ["Sophia Louise, "sophialouiserdl@gmail.com", 3000.00,
                  "DESENVOLVEDOR"]
         salario = salario_funcionario.calcular_salario(lista)
-        assert salario == 2400.0
+        assert salario == 4500
         print("Deu certo!")
     except AssertionError:
         print("Deu errado!")
@@ -23,7 +23,7 @@ def teste2_desenvolvedor():
         lista = ["Sophia Louise", "sophialouiserdl@gmail.com", 2999.00,
                  "DESENVOLVEDOR"]
         salario = salario_funcionario.calcular_salario(lista)
-        assert salario == 2667
+        assert salario == 3000
         print("Deu certo!")
     except AssertionError:
         print("Deu errado!")
@@ -35,7 +35,7 @@ def teste1_analista():
         lista = ["Sophia Louise", "sophialouiserdl@gmail.com", 2000.00,
                  "ANALISTA"]
         salario = salario_funcionario.calcular_salario(lista)
-        assert salario == 1700.0
+        assert salario == 1000
         print("Deu certo!")
     except AssertionError:
         print("Deu errado!")
@@ -47,7 +47,7 @@ def teste2_analista():
         lista = ["Sophia Louise", "sophialouiserdl@gmail.com", 1999.00,
                  "ANALISTA"]
         salario = salario_funcionario.calcular_salario(lista)
-        assert salario == 2000
+        assert salario == 700
         print("Deu certo!")
     except AssertionError:
         print("Deu errado!")
@@ -59,7 +59,7 @@ def teste1_gerente():
         lista = ["Sophia Louise", "sophialouiserdl@gmail.com, 5000.00,
                  "GERENTE"]
         salario = salario_funcionario.calcular_salario(lista)
-        assert salario == 3900.0
+        assert salario == 2500
         print("Deu certo!")
     except AssertionError:
         print("Deu errado!")
@@ -74,7 +74,7 @@ def teste2_gerente():
         assert salario == 2119.3333333
         print("Deu certo!")
     except AssertionError:
-        print("Deu errado!)
+        print("Deu errado!")
 
 
 def teste_outro_cargo():
